@@ -1,0 +1,48 @@
+.aside__container {
+    position: absolute;
+    top: 13%;
+    right: 8%;
+    max-width: 30%;
+    background-color: #ebe7dd;
+}
+
+.depoimento {
+    width: 100%;
+}
+
+.datas__container {
+    background-color: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    width: 300px;
+}
+
+.datas__container h4{
+    color: #af670a;
+    margin-bottom: 5px;
+}
+
+.input__1 {
+    width: 75px;
+    margin: 5px 10px 5px 3px;
+}
+
+.input__2 {
+    width: 10px;
+    margin: 5px 10px 5px 3px;
+}
+
+.botao {
+    background: #9b9271;
+    color: white;
+    width: 98.5%;
+    height: 40px;
+    margin-left: 2px;
+    font-size: 1.2em;
+    border: none;
+}
+
+.botao:hover {
+    background-color: #cdc8b1;
+    color: #9b9271;
+    border: 1px solid #9b9271;
+}

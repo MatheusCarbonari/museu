@@ -1,0 +1,38 @@
+.rodape__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.div-rodape {
+    margin-top: 16px;
+}
+
+.rodape__container a{
+    font-size: 11px;
+    transition: .6s;
+    text-decoration: none;
+}
+
+.rodape__container a:hover {
+    color: white;
+    background-color: #af670a;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 13px;
+}
+
+.creditos__rodape {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.creditos__rodape a {
+    color: #af670a;
+    transition: .4s;
+    cursor: pointer;
+    padding: 5px;
+}

@@ -1,0 +1,55 @@
+.conteudo__container {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.video__mapa {
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.video__mapa h3{
+    text-align: center;
+    color: #227115;
+    font-size: 14px;
+}
+
+.exposicoes__historia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    width: 80%;
+    margin-bottom: 16px;
+}
+
+.historia__container {
+    width: 100%;
+}
+
+.exposicoes__historia h3 {
+    color: #227115;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.exposicoes__historia li{
+    margin: 5px;
+}
+
+.exposicoes__historia a {
+    text-decoration: none;
+    color: #86521a;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.exposicoes__historia a:hover {
+    background-color: #dfa15f;
+    color: #227115;
+}
